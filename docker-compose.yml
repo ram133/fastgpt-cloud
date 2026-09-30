@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  fastgpt:
+    image: ghcr.io/labring/fastgpt:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
